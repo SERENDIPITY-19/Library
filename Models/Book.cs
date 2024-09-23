@@ -18,6 +18,7 @@ namespace Library.Models
 
         public string Genre { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime IssuedDate { get; set; } 
     }
 }
